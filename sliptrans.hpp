@@ -108,8 +108,8 @@ private:
     pinocchio::Data::Matrix6x J_r;
     pinocchio::Data::Matrix6x J_l;
 
-    std::string urdf_file = "/home/bhrrobot/zjt_bitbot_simulate/371robot/models/test_slip_app/model/mxj_urdf/mxj.urdf";
-    std::string urdf_file_IK = "/home/bhrrobot/zjt_bitbot_simulate/371robot/models/test_slip_app/model/mxj_urdf/mxj.urdf";
+    std::string urdf_file = "~/xxx/xxx.urdf";
+    std::string urdf_file_IK = "~/xxx/xxx.urdf";
 
     Eigen::Matrix3d RPY2ROT(double rollIn, double pitchIn, double yawIn);
 
